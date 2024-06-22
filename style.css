@@ -85,11 +85,16 @@ nav img {
     border-radius: 4px;
 }
 
+.btn:hover{
+    background-color: #C11119;
+}
+
 .btn-red{
     font-size: 24px;
     padding: 11px 24px;
     position: relative;
     top: 3px;
+    cursor: pointer;
 }
 
 
@@ -97,6 +102,7 @@ nav img {
     z-index: 1;
     font-size: 14px;
     padding: 7px 17px;
+    cursor: pointer;
 }
 
 .btn-red svg{
@@ -117,7 +123,7 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 70vw;
+    max-width: 80vw;
     margin: auto;
 }
 
@@ -150,13 +156,11 @@ section.first > div{
 section.first > div :first-child{
     font-size: 48px;
     font-weight: 900;
-    text-align: center;
 }
 
 section.first > div :nth-child(2){
     font-size: 24px;
     font-weight: 400;
-    text-align: center;
 }
 
 .faq{
@@ -240,6 +244,7 @@ footer{
 @media screen and (max-width:1300px){
     .first{
         flex-wrap: wrap;
+        text-align: center;
     }
 
 
@@ -337,7 +342,7 @@ footer{
     }
 }
 
-@media screen and (max-height:800px){
+@media screen and (max-height:750px){
     .main{
         height: 75vh;
     }
